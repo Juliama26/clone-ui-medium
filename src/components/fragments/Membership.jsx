@@ -2,6 +2,13 @@ import React from "react";
 import MemberOnly from "./MemberOnly";
 import Sticky from "../elements/Sticky";
 import Text from "../elements/Text";
+import Unlock from "../elements/Unlock";
+import Saying from "./Saying";
+
+import { FaRegStar } from "react-icons/fa6";
+import { GiSelfLove } from "react-icons/gi";
+import Span from "../elements/Span";
+import Card from "../elements/Card";
 
 export default function Membership() {
   return (
@@ -42,150 +49,78 @@ export default function Membership() {
         <div className="md:sticky md:top-56">
           <Sticky>What members are saying</Sticky>
         </div>
-        <Text Head="Reward writers">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
-          incidunt architecto cumque odio et quae harum, nostrum nemo officiis
-          saepe est culpa repudiandae praesentium, reprehenderit assumenda quas
-          nesciunt. Ea, laborum tempora. Sequi, assumenda aperiam. Nemo
-          obcaecati magni illum deleniti ex veritatis, officia praesentium enim
-          consectetur velit vitae iure culpa fugit qui dolorem a odio impedit.
-          Ullam eius natus facere id nisi beatae dolores eos, rerum, magnam
-          numquam in explicabo eum suscipit aliquam architecto consequatur ea
-          iusto provident ab est iste earum. Molestias aspernatur ipsa velit ut
-          excepturi culpa, iure explicabo facilis nostrum. Sint, ratione.
-          Consectetur tempore necessitatibus quisquam? Aspernatur voluptatibus
-          iste repudiandae vitae, ea voluptate minus ullam magni, optio quidem
-          labore dolore, corporis est illo eius distinctio nesciunt at commodi
-          eligendi! Ducimus similique at maxime quas suscipit pariatur quae ea
-          nesciunt quisquam minus, saepe deleniti, eligendi perferendis ipsam.
-          Ex aliquid assumenda dolores, nihil fuga delectus, maxime sequi eaque
-          nesciunt tempore, nobis vero. Consectetur deleniti magni culpa?
-          Reiciendis neque, sint maiores aliquid eligendi, labore commodi
-          eveniet delectus quia nihil obcaecati quo aspernatur suscipit
-          repudiandae necessitatibus perspiciatis qui quaerat alias molestias
-          rerum fuga autem tempora explicabo! Blanditiis, harum in veritatis
-          ducimus laborum possimus esse sint, totam laboriosam modi hic maiores
-          quisquam. Quos dicta in fugit voluptatum officiis nihil repellat vitae
-          minus magnam commodi rerum debitis provident possimus vero laudantium,
-          expedita et dolore pariatur corporis? Necessitatibus ab harum ratione,
-          consequatur repellendus, quam doloribus quibusdam voluptas commodi
-          veniam distinctio, nisi illo minus tempora blanditiis. Fugit et autem
-          nobis delectus accusantium neque suscipit corporis quam labore nam
-          possimus magni quae architecto excepturi ab deserunt minus sit,
-          voluptatum voluptas quasi? Minus, obcaecati. Maiores quaerat sint ex
-          placeat consequatur itaque ut, cupiditate dolore laudantium eum
-          debitis repellendus in est. Maiores, consequuntur. Illo libero
-          praesentium deleniti! Accusantium eaque veniam doloribus aliquam fuga
-          voluptates nihil nostrum. Voluptate alias tempora nemo tenetur velit
-          voluptatem illo nobis dolorum sed facilis harum, asperiores nihil
-          placeat exercitationem repellat iure debitis dolore. Nisi consectetur
-          amet, qui a, facilis atque reiciendis doloremque voluptatum alias
-          autem error est quidem nobis itaque minima, repudiandae quos incidunt.
-          Officia illum minima nam accusantium saepe? Iste explicabo quaerat
-          suscipit recusandae eum et officiis, asperiores nobis repellendus qui
-          est, aliquam mollitia? Ducimus, repellat explicabo quaerat eligendi
-          molestias obcaecati dolorum assumenda porro, laborum eum perspiciatis
-          facere officia ipsam recusandae libero accusamus saepe ea laboriosam
-          fugit fugiat non impedit aut! Corrupti tempora, vel consectetur esse
-          nesciunt quas, nisi mollitia cum minima ab temporibus sit maiores iure
-          sequi at veritatis aliquid, recusandae labore architecto praesentium
-          repudiandae eius aperiam eaque. Eius dolorum nostrum a hic quidem sunt
-          quisquam obcaecati! Sed nisi necessitatibus animi delectus sint
-          eveniet minima officiis officia aliquam. Iure necessitatibus
-          laudantium amet voluptatum beatae dolorem corporis nam minima, rerum
-          aliquam consequatur perferendis animi maxime, fuga totam odit officia,
-          minus enim sint. Non quibusdam placeat fugiat! Asperiores fugit
-          ratione recusandae, eos, soluta officia pariatur facilis dolorem enim
-          neque debitis vero ipsa non repellendus. Vero illo facilis reiciendis
-          doloremque voluptates aut earum maiores distinctio placeat pariatur
-          omnis quas eveniet iste eos aliquid, quod voluptatum, voluptate esse
-          quo recusandae similique. Nesciunt minima illum quis, enim maiores
-          veniam impedit, itaque saepe ab mollitia dolorem iusto! Quam ea nobis
-          ducimus commodi ratione dolores hic nesciunt? Nesciunt inventore
-          molestias cum sed ipsum velit repudiandae quidem necessitatibus vitae
-          similique vero facere hic voluptas, delectus suscipit exercitationem
-          impedit voluptatem dolores. Iste assumenda hic blanditiis doloribus
-          sed itaque cumque rerum nesciunt voluptas possimus quibusdam, debitis
-          eveniet magnam dolorem, maiores mollitia corporis expedita vitae nobis
-          eaque modi quos eos vel. Officia illum omnis possimus, ex vel
-          molestias perspiciatis ipsam nostrum modi optio rerum accusamus nemo.
-          Excepturi, rerum officiis deleniti quam mollitia laborum impedit!{" "}
-        </Text>
+        <section className="flex flex-col gap-y-12 py-12">
+          <Saying
+            name={"Cassie Kozyrkov"}
+            profesi={"Chief Decision Scientist at Google and Medium member"}
+          >
+            The easy path in social media is promoting the worst content, the
+            cheapest, tackiest, lowest-effort stuff. That’s not what you get on
+            Medium. You can actually find content you can build your brain with.
+            I appreciate that, both as a reader and a writer.
+          </Saying>
+          <Saying
+            name={"Enrique Dans"}
+            profesi={
+              "Professor of Innovation at IE Business School and Medium member"
+            }
+          >
+            Medium has proved a game-changer for me, and quickly became the
+            subscription I value the most, and I have quite a few. The cost is
+            nothing compared to the value Medium generates for me month after
+            month.
+          </Saying>
+          <Saying
+            name={"Wenqi Glantz"}
+            profesi={"Software Architect at ArisGlobal and Medium member"}
+          >
+            For us tech folks, Medium membership unlocks a whole treasure trove
+            of high-quality articles. One good technology book could sell for
+            over the Medium membership fee amount. It’s your choice whether to
+            buy one book, or buy hundreds and thousands of books by unlocking
+            member-only reading on Medium. Investing in a Medium membership is
+            one of the best investments I have ever made for my career.
+          </Saying>
+        </section>
       </section>
       <section className="flex flex-col md:flex-row gap-x-12 px-6">
         <div className="md:sticky md:top-56">
           <Sticky>Membership plans</Sticky>
         </div>
-        <Text Head="Reward writers">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
-          incidunt architecto cumque odio et quae harum, nostrum nemo officiis
-          saepe est culpa repudiandae praesentium, reprehenderit assumenda quas
-          nesciunt. Ea, laborum tempora. Sequi, assumenda aperiam. Nemo
-          obcaecati magni illum deleniti ex veritatis, officia praesentium enim
-          consectetur velit vitae iure culpa fugit qui dolorem a odio impedit.
-          Ullam eius natus facere id nisi beatae dolores eos, rerum, magnam
-          numquam in explicabo eum suscipit aliquam architecto consequatur ea
-          iusto provident ab est iste earum. Molestias aspernatur ipsa velit ut
-          excepturi culpa, iure explicabo facilis nostrum. Sint, ratione.
-          Consectetur tempore necessitatibus quisquam? Aspernatur voluptatibus
-          iste repudiandae vitae, ea voluptate minus ullam magni, optio quidem
-          labore dolore, corporis est illo eius distinctio nesciunt at commodi
-          eligendi! Ducimus similique at maxime quas suscipit pariatur quae ea
-          nesciunt quisquam minus, saepe deleniti, eligendi perferendis ipsam.
-          Ex aliquid assumenda dolores, nihil fuga delectus, maxime sequi eaque
-          nesciunt tempore, nobis vero. Consectetur deleniti magni culpa?
-          Reiciendis neque, sint maiores aliquid eligendi, labore commodi
-          eveniet delectus quia nihil obcaecati quo aspernatur suscipit
-          repudiandae necessitatibus perspiciatis qui quaerat alias molestias
-          rerum fuga autem tempora explicabo! Blanditiis, harum in veritatis
-          ducimus laborum possimus esse sint, totam laboriosam modi hic maiores
-          quisquam. Quos dicta in fugit voluptatum officiis nihil repellat vitae
-          minus magnam commodi rerum debitis provident possimus vero laudantium,
-          expedita et dolore pariatur corporis? Necessitatibus ab harum ratione,
-          consequatur repellendus, quam doloribus quibusdam voluptas commodi
-          veniam distinctio, nisi illo minus tempora blanditiis. Fugit et autem
-          nobis delectus accusantium neque suscipit corporis quam labore nam
-          possimus magni quae architecto excepturi ab deserunt minus sit,
-          voluptatum voluptas quasi? Minus, obcaecati. Maiores quaerat sint ex
-          placeat consequatur itaque ut, cupiditate dolore laudantium eum
-          debitis repellendus in est. Maiores, consequuntur. Illo libero
-          praesentium deleniti! Accusantium eaque veniam doloribus aliquam fuga
-          voluptates nihil nostrum. Voluptate alias tempora nemo tenetur velit
-          voluptatem illo nobis dolorum sed facilis harum, asperiores nihil
-          placeat exercitationem repellat iure debitis dolore. Nisi consectetur
-          amet, qui a, facilis atque reiciendis doloremque voluptatum alias
-          autem error est quidem nobis itaque minima, repudiandae quos incidunt.
-          Officia illum minima nam accusantium saepe? Iste explicabo quaerat
-          suscipit recusandae eum et officiis, asperiores nobis repellendus qui
-          est, aliquam mollitia? Ducimus, repellat explicabo quaerat eligendi
-          molestias obcaecati dolorum assumenda porro, laborum eum perspiciatis
-          facere officia ipsam recusandae libero accusamus saepe ea laboriosam
-          fugit fugiat non impedit aut! Corrupti tempora, vel consectetur esse
-          nesciunt quas, nisi mollitia cum minima ab temporibus sit maiores iure
-          sequi at veritatis aliquid, recusandae labore architecto praesentium
-          repudiandae eius aperiam eaque. Eius dolorum nostrum a hic quidem sunt
-          quisquam obcaecati! Sed nisi necessitatibus animi delectus sint
-          eveniet minima officiis officia aliquam. Iure necessitatibus
-          laudantium amet voluptatum beatae dolorem corporis nam minima, rerum
-          aliquam consequatur perferendis animi maxime, fuga totam odit officia,
-          minus enim sint. Non quibusdam placeat fugiat! Asperiores fugit
-          ratione recusandae, eos, soluta officia pariatur facilis dolorem enim
-          neque debitis vero ipsa non repellendus. Vero illo facilis reiciendis
-          doloremque voluptates aut earum maiores distinctio placeat pariatur
-          omnis quas eveniet iste eos aliquid, quod voluptatum, voluptate esse
-          quo recusandae similique. Nesciunt minima illum quis, enim maiores
-          veniam impedit, itaque saepe ab mollitia dolorem iusto! Quam ea nobis
-          ducimus commodi ratione dolores hic nesciunt? Nesciunt inventore
-          molestias cum sed ipsum velit repudiandae quidem necessitatibus vitae
-          similique vero facere hic voluptas, delectus suscipit exercitationem
-          impedit voluptatem dolores. Iste assumenda hic blanditiis doloribus
-          sed itaque cumque rerum nesciunt voluptas possimus quibusdam, debitis
-          eveniet magnam dolorem, maiores mollitia corporis expedita vitae nobis
-          eaque modi quos eos vel. Officia illum omnis possimus, ex vel
-          molestias perspiciatis ipsam nostrum modi optio rerum accusamus nemo.
-          Excepturi, rerum officiis deleniti quam mollitia laborum impedit!{" "}
-        </Text>
+        <section className="w-full flex flex-col md:flex-row justify-around gap-y-4 py-6">
+          <Card
+            Icon={<FaRegStar size={25} color="yellow" />}
+            title="Medium Member"
+            price="$5/month or $60/year"
+          >
+            <Span>Read member-only stories</Span>
+            <Span>Support writers you read most</Span>
+            <Span>Earn money for your writing</Span>
+            <Span>Listen to audio narrations</Span>
+            <Span>Read offline with the Medium app</Span>
+            <Span>Access our Mastodon community</Span>
+            <Span>Connect your custom domain</Span>
+            <Span>Create your own publications</Span>
+          </Card>
+          <Card
+            Icon={<GiSelfLove size={25} color="yellow" />}
+            title="Friend of Medium"
+            price="$15/month or $150/year"
+          >
+            <Span>All Medium member benefits</Span>
+            <Span className={"font-semibold"}>
+              Give 4x more to the writers you read
+            </Span>
+            <Span>
+              Share member-only stories with <br /> anyone and drive more
+              earnings for <br />
+              writers
+            </Span>
+            <Span>Customize app icon</Span>
+          </Card>
+        </section>
       </section>
+      <Unlock />
     </div>
   );
 }
