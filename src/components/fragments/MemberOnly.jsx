@@ -24,12 +24,10 @@ export default function MemberOnly() {
       <aside className="relative w-full text-primary">
         <img src={member} alt="Member" className="h-full w-full object-cover" />
         <section className="absolute bottom-5 left-5 space-y-3">
-          <Button
-            Icon={<IoIosStarOutline size={25} />}
-            className="bg-orange-500 text-secondary border-orange-500"
-          >
-            Member-only-story
-          </Button>
+          <button className="flex items-center justify-center gap-x-2 px-4 py-2 text-sm rounded-full border bg-orange-500 text-secondary border-orange-500">
+            <IoIosStarOutline size={25} />
+            <span>Member-only-story</span>
+          </button>
           <h3 className="text-3xl">The Case For Reforesting Our Cities</h3>
           <Writing />
         </section>
